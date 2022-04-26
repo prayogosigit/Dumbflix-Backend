@@ -7,4 +7,4 @@ How to deploy dumbflix-backend :
 - Copy .env.example to .env
 - Change config/config.json to your database
 - Deploy dumbflix-backend with port 5000
--TESTCICD
+-TESTCICD1
