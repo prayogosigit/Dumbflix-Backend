@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+
+        backend:
+          container_name: be
+          image: sigit26/dumbflix-be-postg:1.0
+          ports:
+            -  "5000:5000"
+
+        backendloadbalance:
+          container_name: beloadbalance
+          image: sigit26/dumbflix-be-postg:1.0
+          ports:
+            -  "5001:5001"
